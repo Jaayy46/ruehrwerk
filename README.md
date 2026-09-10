@@ -1,5 +1,8 @@
 # Rührwerk
 
+**Live: https://jaayy46.github.io/ruehrwerk/**
+Beispielrezept: https://jaayy46.github.io/ruehrwerk/rezepte/kuerbissuppe.html
+
 Eigenes Thermomix-Kochbuch mit Schritt-für-Schritt-Kochmodus. Eine Datei, kein Server,
 keine Anmeldung. Läuft auf iPad, iPhone, Android, Desktop.
 
@@ -12,6 +15,9 @@ Rührwerk baut die Schritt-für-Schritt-Führung deshalb selbst nach — auf dem
 
 ## Starten
 
+Am schnellsten: https://jaayy46.github.io/ruehrwerk/ öffnen.
+Auf dem iPad in Safari → Teilen → **Zum Home-Bildschirm**, danach läuft es als eigene App, auch offline.
+
 Lokal:
 
 ```bash
@@ -21,7 +27,8 @@ python3 serve.py
 Dann `http://localhost:8777` öffnen. Auf iPad/iPhone: Safari → Teilen → **Zum Home-Bildschirm**.
 Danach läuft es als eigene App, auch offline.
 
-Öffentlich (GitHub Pages): Ordnerinhalt in ein Repo pushen, Pages auf `main / root` stellen.
+Veröffentlicht liegt es in `Jaayy46/ruehrwerk`, Pages auf `main / root`.
+Für den Publish-Dialog: Repo `Jaayy46/ruehrwerk`, Branch `main`, Ordner `rezepte`.
 HTTPS ist Pflicht, sonst kein Offline-Betrieb und kein Wach-halten des Displays.
 
 ## Funktionen
