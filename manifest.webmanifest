@@ -1,0 +1,14 @@
+{
+  "name": "Rührwerk — Eigenes Kochbuch",
+  "short_name": "Rührwerk",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F7F2E8",
+  "theme_color": "#F7F2E8",
+  "lang": "de",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
